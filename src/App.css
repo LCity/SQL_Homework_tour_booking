@@ -28,6 +28,14 @@
   color: #61dafb;
 }
 
+.mynav-button
+{
+  color: #9d9d9d;
+  background-color:#222;
+  border: 0px;
+  font-weight :bold;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
