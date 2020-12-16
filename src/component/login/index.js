@@ -22,7 +22,7 @@ export default () => {
     useEffect(() => {
         let res = localStorage.getItem('id')
         console.log(res)
-        if(!(typeof(res) === undefined))
+        if(!(res === null))
             setPageControl(1);
     }, [])
   
